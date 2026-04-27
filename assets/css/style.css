@@ -1,22 +1,32 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f3efe8;
+    background-color: #fffb00;
     color: #1f1a16;
 }
 
 .custom-navbar {
-    background-color: rgba(31, 26, 22, 0.85);
-    backdrop-filter: blur(8px);
+    background-color: #00ff2a;
+    border-bottom: 2px solid #111111;
 }
 
 .navbar-brand,
 .nav-link {
-    color: #f8f1e8 !important;
+    color: #111111 !important;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.06em;
+    transform: scaleX(0.72);
+    transform-origin: left center;
 }
 
 .navbar-brand {
-    font-weight: 600;
-    letter-spacing: 0.03em;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.nav-link {
+    font-size: 1.35rem;
+    line-height: 1;
 }
 
 .hero {
@@ -79,7 +89,7 @@ body {
 }
 
 .intro-section {
-    background-color: #f3efe8;
+    background-color: #e968cd;
 }
 
 .info-grid {
@@ -89,7 +99,7 @@ body {
 }
 
 .info-grid article {
-    border-top: 1px solid #1f1a16;
+    border-top: 1px solid #3540d8;
     padding-top: 24px;
 }
 
@@ -107,12 +117,12 @@ body {
 }
 
 .dark-section {
-    background-color: #3b1d0f;
+    background-color: #2cd6ce;
     color: #f6d9bb;
 }
 
 .experience-card {
-    border: 1px solid rgba(246, 217, 187, 0.35);
+    border: 1px solid rgb(255, 0, 21);
     border-radius: 24px;
     padding: 32px;
     min-height: 260px;
@@ -125,7 +135,7 @@ body {
 }
 
 .portfolio-section {
-    background-color: #f8f1e8;
+    background-color: #ffffff;
 }
 
 .portfolio-header {
@@ -162,7 +172,7 @@ body {
 }
 
 .contact-section {
-    background-color: #e7d8c6;
+    background-color: #ff7300;
 }
 
 .contact-links {
